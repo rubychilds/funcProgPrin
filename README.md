@@ -1,6 +1,6 @@
 # Functional Principles of Programming with Scala
 
-This repository consists of my solutions to the assignments given in the (Coursera)[https://www.coursera.org] course Functional Programming Principles in Scala. I would highely advise against copying it if doing such course. I have simply placed mine here for reference and to illustrate thought processes.
+This repository consists of my solutions to the assignments given in the [Coursera](https://www.coursera.org) course Functional Programming Principles in Scala. I would highely advise against copying it if doing such course. I have simply placed mine here for reference and to illustrate thought processes.
 
 ## Assignment 1
 Focus on recursion
