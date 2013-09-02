@@ -23,4 +23,15 @@ Union, Intersection and Difference
 Implemetation of forall, exists and map. Deals with iteration over set to check property of elements and to tansform elements.
 
 ##Assignment 3
-To be completed
+Mainly focuses on object-oriented sets through the use of TweetSet, TweetList and a Tweet. 
+###Exercise 1
+Involves implemenation of filter, which filters a TweetSet according to a predicate p. Uses helper function filterAcc to accumulate the tweets that have property p.
+
+###Exercise 2
+Union of two TweetSets: this.union(that). Whereby we look at if this is empty, to return that. If nonEmpty then we must look at right and left TweetSets of this and include the additional element. Defined as abstract in class TweetSet but implemented in NonEmpty and Empty.
+
+###Exercise 3
+Returns a TweetList given a TweetSet in descending order of retweets. Recursive helper function whereby we get the top element first and recall the helper function on the rest of the TweetSet accumulating the results in a TweetList. This was implemented in the class TweetSet, but could take out the helper function to sit in either subclasses.
+
+##Exercise 4
+Within this function, we get all tweets and the filter accordingly to whether they contain Google or Apple Buzzwords. These lists are unioned together then we apply descendingByRetweets to order by number of retweets.
