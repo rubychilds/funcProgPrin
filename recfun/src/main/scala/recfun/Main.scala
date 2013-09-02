@@ -1,3 +1,4 @@
+package recfun
 import common._
 
 object Main {
@@ -44,9 +45,10 @@ object Main {
 
   /**
    * Exercise 3
-   * Here we want to find the number of ways we can give change from a given number of coins, to the sum money
-   * for example. if we have money 4, and coins 1, 2 we can do: 1+1+1+1, 2+2, 1+1+2
    */
+  // here we want to find the number of ways we can give change from a given number of coins, to the sum money
+  // for example. if we have money 4, and coins 1, 2 we can do: 1+1+1+1, 2+2, 1+1+2
+  
   
   def countChange(money: Int, coins: List[Int]): Int = 
     // edge case if money is zero, return one, i.e. there is only a single way to give change - nothing!
