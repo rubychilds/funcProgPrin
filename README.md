@@ -2,6 +2,8 @@
 
 This repository consists of my solutions to the assignments given in the [Coursera](https://www.coursera.org) course Functional Programming Principles in Scala. I would highely advise against copying it if doing such course. I have simply placed mine here for reference and to illustrate thought processes.
 
+Note the gitignore file has been copied from [Github's useful gitignore templates](https://github.com/github/gitignore)
+
 ## Assignment 1
 Focus on recursion
 ###Exercise 1
@@ -12,4 +14,13 @@ Looks at whether a string has parentheses balance. For example. ')(' cannot be b
 This looks at the number of ways one can give change from a list of coins to total a amount of money. The list items can be reused as many times as desired. In order to do this we consider edge cases, when no coins are given, nor money. Then we look at the case when a coin maybe greater than the money amount or less than in which it is used as part of the change.
 
 ## Assignment 2
-to be completed
+Focus on understanding concepts of Sets such as union, intersection and difference. Further to this we continue on to look at transformations and queries of sets, such as writing forall which tests if every element in a set has a property p
+
+###Exercise 1
+Union, Intersection and Difference
+
+###Exercise 2
+Implemetation of forall, exists and map. Deals with iteration over set to check property of elements and to tansform elements.
+
+##Assignment 3
+To be completed
