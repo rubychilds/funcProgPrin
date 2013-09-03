@@ -33,5 +33,20 @@ Union of two TweetSets: this.union(that). Whereby we look at if this is empty, t
 ###Exercise 3
 Returns a TweetList given a TweetSet in descending order of retweets. Recursive helper function whereby we get the top element first and recall the helper function on the rest of the TweetSet accumulating the results in a TweetList. This was implemented in the class TweetSet, but could take out the helper function to sit in either subclasses.
 
-##Exercise 4
+###Exercise 4
 Within this function, we get all tweets and the filter accordingly to whether they contain Google or Apple Buzzwords. These lists are unioned together then we apply descendingByRetweets to order by number of retweets.
+
+##Assignment 4
+[Huffman code](http://en.wikipedia.org/wiki/Huffman_coding) implementation. Focus on Pattern Matching. 
+
+###Exercise 2
+Involves development of helper functions for createCodeTree which takes a list of characters and returns a CodeTree. Times counts the occurance of characters in a list; makeOrderedLeafLists returns list of leaves in ascending weight order; singleton determines if there is a single tree in List(CodeTree); combine removes trees with lowerweights and recombines them to pre-existing trees; until takes functions singleton and combine until returning a list of a single tree.
+
+###Exercise 3
+Decode method which returns List(Char) given a string of bits and a TreeCode. This acts recursively to iterate through the tree until reaching a leaf whereby it returns the char and continues on with decoding. 
+
+###Exercise 4
+
+
+
+
