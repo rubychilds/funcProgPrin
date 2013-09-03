@@ -149,7 +149,7 @@ object Huffman {
       val tree1 = trees.head
       val tree2 = (trees.tail).head
       // returns new makeCodeTree Fork plus the remaining added on
-      makeCodeTree( tree1,tree2)::(trees.tail).tail
+      (makeCodeTree( tree1,tree2)::(trees.tail.tail)).sortBy(weight(_))
     }
   }
 
@@ -317,4 +317,10 @@ object Huffman {
   	// takes the text, applies to all char that it produces a codeTable, in use of convert then uses codebits
     text.flatMap(codeBits(convert(tree)))
 
+}
+
+// NEEDS A MAIN TO RUN THIS
+object Main extends App {
+  
+  println("hello")
 }
