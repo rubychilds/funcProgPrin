@@ -36,7 +36,7 @@ Returns a TweetList given a TweetSet in descending order of retweets. Recursive 
 ###Exercise 4
 Within this function, we get all tweets and the filter accordingly to whether they contain Google or Apple Buzzwords. These lists are unioned together then we apply descendingByRetweets to order by number of retweets.
 
-##Assignment 4
+##Assignment 4 
 [Huffman code](http://en.wikipedia.org/wiki/Huffman_coding) implementation. Focus on Pattern Matching. 
 
 ###Exercise 2
@@ -47,6 +47,19 @@ Decode method which returns List(Char) given a string of bits and a TreeCode. Th
 
 ###Exercise 4
 
+##Assignment 5
+This is an implementation of [Anagrams](http://en.wikipedia.org/wiki/Anagram) which takes a word or sentence to produce a new word or sentence.
 
+###Exercise 1
+wordOccurrences takes a word and counts the character occurrence in the word and returns Occurences, being a list of tuples as (Char, Int). Further to this, sentenceOccurances calculates the occurrence of each character.
+
+###Exercise 2
+Here we have a map of a key, being Occurances with a List of words corresponding to the Occurance key. We can then take a word, calculate its occurance and produce a list of words in the dictionary, being an anagram of this word.
+
+###Exercise 3
+Computing subsets, recursively calls on  list of Occurrences along with using for-comprehensions.
+
+###Exercise 4
+Subtract takes two lists of Occurances, x and y and will calculate x - y. This is when x contains y elements and the occurance of the y element is less than or equal to the corresponding x occurance.
 
 
