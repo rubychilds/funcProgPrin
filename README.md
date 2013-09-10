@@ -1,19 +1,22 @@
+
 # Functional Principles of Programming with Scala
 
 This repository consists of my solutions to the assignments given in the [Coursera](https://www.coursera.org) course Functional Programming Principles in Scala. I would highely advise against copying it if doing such course. I have simply placed mine here for reference and to illustrate thought processes.
 
 Note the gitignore file has been copied from [Github's useful gitignore templates](https://github.com/github/gitignore)
 
-## Assignment 1
+##Assignment 1
 Focus on recursion
+
 ###Exercise 1
 Returns an element at column c and row r
+
 ###Exercise 2
 Looks at whether a string has parentheses balance. For example. ')(' cannot be balanced, '(hello)' is balanced. The solution looks at using a zero sum game, whereby we increase an accumulator by +1 for '(', as this is expected to come first, and reduce the accumulator by -1 for ')'. If the acummulator becomes negative, then we deduce ')' has become before '(' and so is unbalanaced. We treat the string as a List of chars, by passing List[char] We check on the list by recursively calling the function on the tail of the list once the head has been dealt with.
 ###Exercise 3
 This looks at the number of ways one can give change from a list of coins to total a amount of money. The list items can be reused as many times as desired. In order to do this we consider edge cases, when no coins are given, nor money. Then we look at the case when a coin maybe greater than the money amount or less than in which it is used as part of the change.
 
-## Assignment 2
+##Assignment 2
 Focus on understanding concepts of Sets such as union, intersection and difference. Further to this we continue on to look at transformations and queries of sets, such as writing forall which tests if every element in a set has a property p
 
 ###Exercise 1
@@ -62,4 +65,12 @@ Computing subsets, recursively calls on  list of Occurrences along with using fo
 ###Exercise 4
 Subtract takes two lists of Occurances, x and y and will calculate x - y. This is when x contains y elements and the occurance of the y element is less than or equal to the corresponding x occurance.
 
+##Assignment 6
+Focus on lazy evaluation. Implementation of the game [Bloxorz](http://www.coolmath-games.com/0-bloxorz/index.html) along with a solver of the game.
 
+###Exercise 1: Game Structure
+Involves determining if a position lies within a terrain along with finding a given character in a given terrain. Blocks builds a block in a given position and contains move functions, checks on whether it is standing as well as construction of the initial block. Blocks also eals with neighbours and legal moves. 
+
+###Exercise 2: Solving the Game
+To be completed
+ 
