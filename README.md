@@ -27,6 +27,7 @@ Implemetation of forall, exists and map. Deals with iteration over set to check 
 
 ##Assignment 3
 Mainly focuses on object-oriented sets through the use of TweetSet, TweetList and a Tweet. 
+
 ###Exercise 1
 Involves implemenation of filter, which filters a TweetSet according to a predicate p. Uses helper function filterAcc to accumulate the tweets that have property p.
 
