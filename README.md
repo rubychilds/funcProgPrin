@@ -43,27 +43,28 @@ Within this function, we get all tweets and the filter accordingly to whether th
 ##Assignment 4 
 [Huffman code](http://en.wikipedia.org/wiki/Huffman_coding) implementation. Focus on Pattern Matching. 
 
-###Exercise 2
+###Exercise 1: Constructing Huffman Trees
 Involves development of helper functions for createCodeTree which takes a list of characters and returns a CodeTree. Times counts the occurance of characters in a list; makeOrderedLeafLists returns list of leaves in ascending weight order; singleton determines if there is a single tree in List(CodeTree); combine removes trees with lowerweights and recombines them to pre-existing trees; until takes functions singleton and combine until returning a list of a single tree.
 
-###Exercise 3
+###Exercise 2: Decode
 Decode method which returns List(Char) given a string of bits and a TreeCode. This acts recursively to iterate through the tree until reaching a leaf whereby it returns the char and continues on with decoding. 
 
-###Exercise 4
+###Exercise 3: Encoding
+
 
 ##Assignment 5
 This is an implementation of [Anagrams](http://en.wikipedia.org/wiki/Anagram) which takes a word or sentence to produce a new word or sentence.
 
-###Exercise 1
+###Exercise 1: Occurrences
 wordOccurrences takes a word and counts the character occurrence in the word and returns Occurences, being a list of tuples as (Char, Int). Further to this, sentenceOccurances calculates the occurrence of each character.
 
-###Exercise 2
+###Exercise 2: Anagrams of a word
 Here we have a map of a key, being Occurances with a List of words corresponding to the Occurance key. We can then take a word, calculate its occurance and produce a list of words in the dictionary, being an anagram of this word.
 
-###Exercise 3
+###Exercise 3: Subset computation
 Computing subsets, recursively calls on  list of Occurrences along with using for-comprehensions.
 
-###Exercise 4
+###Exercise 4: Anagrams of a sentence
 Subtract takes two lists of Occurances, x and y and will calculate x - y. This is when x contains y elements and the occurance of the y element is less than or equal to the corresponding x occurance.
 
 ##Assignment 6
